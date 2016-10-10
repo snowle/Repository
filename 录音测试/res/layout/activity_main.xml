@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+    android:orientation="vertical">
+        
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/hello_world" />
+
+        
+<!--     <com.demo.recordvoice.WaveView  -->
+<!--         android:id="@+id/waveView" -->
+<!--         android:layout_gravity="center" -->
+<!--         android:layout_width="360dp" -->
+<!--         android:layout_height="200dp" -->
+<!--         android:background="#ffffff"/>   -->
+        
+<!--     <View  -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="5dp" -->
+<!--         android:background="#505050" /> -->
+        
+<!--     <com.demo.recordvoice.FFTView  -->
+<!--         android:id="@+id/fftView" -->
+<!--         android:layout_gravity="center" -->
+<!--         android:layout_width="360dp" -->
+<!--         android:layout_height="200dp" -->
+<!--         android:background="#ffffff"/>  -->
+        	          
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center" >
+        
+       <Button 
+            android:id="@+id/bt_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/record"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/cd_dvd" />   
+        
+        <Button 
+            android:id="@+id/bt_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stop"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/stop" />
+        
+        <Button 
+            android:id="@+id/bt_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/play" />
+        
+        <Button 
+            android:id="@+id/bt_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/close_delete_2" />
+        
+    </LinearLayout>  
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"  >
+        
+        <TextView
+        	android:id="@+id/textView2"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:textSize="24sp"
+       	 	/>
+        
+    </ScrollView>
+    
+    
+    
+    <Button 
+        android:id="@+id/speak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#808080"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/speak"
+        />
+      
+
+</LinearLayout>

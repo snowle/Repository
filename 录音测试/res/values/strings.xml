@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">录音测试</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="record">开始</string>
+    <string name="stop">停止</string>
+    <string name="play">播放</string>
+    <string name="delete">删除</string>
+    <string name="speak">按住开始说话</string>
+
+</resources>
